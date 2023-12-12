@@ -1,0 +1,152 @@
+header div {
+    width: 100%;
+}
+
+footer div {
+    width: 100%;
+}
+
+h1 {
+    color: #282828;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+h4 {
+    color: #282828;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 160%;
+}
+
+#head-width {
+    width: 28rem;
+    margin-left: 4rem;
+}
+
+.main {
+    max-width: 80rem;
+    max-height: 20rem;
+}
+
+.head-style {
+    height: 24rem;
+    width: 100%;
+    display: flex;
+    background-color: #ffcd9e;
+}
+
+.foot-style {
+    height: 13rem;
+    flex-shrink: 0;
+    width: 100%;
+    display: flex;
+    background-color: #282828;
+}
+
+.para-style {
+    color: #484848;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    /* 32px */
+}
+
+.btn-style {
+    width: 10rem;
+    height: 2.5rem;
+    background-color: #282828;
+    border-radius: 0.3rem;
+    color: white;
+}
+
+.div-content {
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    /* 25.6px */
+    padding: 0 0 0 2rem;
+}
+
+.input-style {
+    width: 17rem;
+    height: 2rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0.4rem;
+}
+
+.inner-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.parent-div {
+    margin-top: 1.5rem;
+}
+
+.div-parent-1 {
+    margin-top: 0.8rem;
+}
+
+.background-image {
+    background-image: url('./assets/images/dweep\ io\ 1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ul-style-left {
+    list-style: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+    margin-left: 6rem;
+    margin-top: 3rem;
+}
+
+.ul-style-left li {
+    margin-top: 0.4rem;
+}
+
+.ul-style-right {
+    text-align: right;
+    list-style: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+    margin-right: 6rem;
+    margin-top: 3rem;
+}
+
+.ul-style-right li {
+    margin-top: 0.4rem;
+}
+
+.icons-list {
+    display: flex;
+    justify-content: end;
+    margin-right: 6rem;
+}
+
+.icon-size {
+    width: 1.3rem;
+}
